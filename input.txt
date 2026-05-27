@@ -1,0 +1,70 @@
+int main() {
+    // Test 1: Basic Variable Declarations
+    int a, b, c;
+    float x, y, z;
+
+    // Test 2: Simple Arithmetic Expressions with Operator Precedence
+    a = 10 + 5;
+    b = 3 * 2 + 4;
+    c = 5 + 3 * 2;
+    
+    // Test 3: Expressions with Unary Operators (Bonus)
+    int num1 = 10;
+    int num2 = -5;
+    int num3 = -num1;
+    
+    // Test 4: Floating-point Numbers (Bonus)
+    x = 3.14;
+    y = 2.5 + 1.5;
+    z = 10.5 - 3.2 * 2.0;
+    
+    // Test 5: Parentheses in Expressions (Bonus)
+    a = (10 + 5) * 2;
+    b = 10 * (5 + 2);
+    c = (3 + 4) * (2 + 1);
+    
+    // Test 6: Nested Parentheses
+    int result = ((10 + 5) * (3 - 1)) / 2;
+    
+    // Test 7: Built-in Functions (Bonus)
+    float sqrt_val = sqrt(16.0);
+    float pow_val = pow(2.0, 3.0);
+    
+    // Test 8: Complex Expressions with Mixed Operations
+    float complex_expr = (10 + 5) * 2.5 - 3.0 / (2.0 + 1.0);
+    
+    // Test 9: Symbol Table Testing - Different Scopes
+    int global_var = 100;
+    
+    // Test 10: Multiple Operators in One Expression
+    int calc = 2 + 3 * 4 - 5 / 2;
+    
+    // Test 11: Right Associativity Test
+    float assoc = 10 - 5 - 2;
+    
+    // Error Test 1: Use of Undeclared Variable (Line 37 - Semantic Error)
+    d = a + b;
+    
+    // Error Test 2: Missing Operand (Line 40 - Syntax Error)
+    e = 10 + ;
+    
+    // Error Test 3: Unbalanced Parentheses (Line 43 - Syntax Error)
+    f = (10 + 5 * 2;
+    
+    // Error Test 4: Unbalanced Closing Parenthesis (Line 46 - Syntax Error)
+    g = 10 + 5) * 2;
+    
+    // Error Test 5: Invalid Tokens (Line 49 - Lexical Error)
+    h = 10 @ 5;
+    
+    // Error Test 6: Another Invalid Token (Line 52 - Lexical Error)
+    i = 20 # 3;
+    
+    // Error Test 7: Missing Operator (Line 55 - Syntax Error)
+    j = 10 5 + 2;
+    
+    // Valid Expression After Errors
+    int valid = 50 + 25;
+    
+    return 0;
+}

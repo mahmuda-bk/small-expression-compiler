@@ -1,0 +1,17 @@
+# Flex / Bison generated sources
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# Compiler outputs
+compiler
+*.exe
+*.out
+*.o
+*.obj
+
+# Common editor and OS files
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
