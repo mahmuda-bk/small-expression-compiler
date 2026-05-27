@@ -2,8 +2,9 @@
 
 This project is a small compiler developed for the **CSE-3104 Compiler Laboratory** course as part of an undergraduate academic project. It demonstrates the core phases of compiler design—including lexical analysis, syntax analysis, semantic checking, expression evaluation, and symbol table management—implemented using **Flex**, **Bison**, and **C** in Linux environment.
 
-## Collaborator
+## Contributors
 
+- [Mahmuda Binte Kabir](https://github.com/mahmuda-bk)
 - [Israt Jahan](https://github.com/israt2024)
 
 ## Features
